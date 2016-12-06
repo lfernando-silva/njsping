@@ -33,7 +33,7 @@ The response will be something like
 */
 ```
 
-### Contribuitions
+### Contributions
 Pull requests are welcome!
 
 ### Todos
