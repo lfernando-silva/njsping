@@ -18,10 +18,13 @@ var hostOptions = {
     port: '85', // default is 80
     timeout: 5000 //default is 1000 ms
 };
+
 //Ping
 njsping.ping(hostOptions, function(err, connectionResults){
+    console.log(err); 
     console.log(connectionResults);
 })
+
 /*
 The response will be something like
 {
@@ -30,6 +33,8 @@ The response will be something like
     isAvailable: true,
     duration: 17
 }
+
+The error object can be something like ERRREFUSED, timeout or other reason for the unsuccessfull connection. Therefore, the connectionResults will be returned even if had some error, when "isAvailable" will be FALSE.
 */
 ```
 
