@@ -1,6 +1,6 @@
 {
   "name": "njsping",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A little helper to make TCP pings",
   "readmeFilename": "README.md",
   "main": "index.js",
